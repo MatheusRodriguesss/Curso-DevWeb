@@ -1,0 +1,42 @@
+
+body {
+    background-color:blanchedalmond;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 38px;
+    padding: 10px;
+}
+h1{
+    justify-content: center;
+}
+
+main {
+    border: 3px solid;
+    border-radius: 38px;    
+}
+
+ol li {
+    text-align: center;
+}
+
+ul li {
+    text-align: center;
+}
+
+footer {
+    border: 3px solid red;
+    padding: 10px;
+    border-radius: 38px;
+}
+
+footer img {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+}

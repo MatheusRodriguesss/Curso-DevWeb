@@ -1,0 +1,82 @@
+h1 {
+ text-align: center;   
+ color: rgb(63, 93, 158);
+}
+header {
+
+}
+
+main {
+
+}
+
+#aluno {
+background-color:rgb(226, 203, 247);
+}
+
+#entregaExercicio{
+background-color: aliceblue;
+}
+
+#feedback{
+
+}
+
+#instituicoes {
+
+}
+
+#listaComida {
+
+}
+
+#comida {
+
+}
+
+#lamentacao {
+    
+}
+
+footer {
+
+}
+
+{
+    "editor.fontSize": 12.5,
+    "terminal.integrated.fontSize": 12.5,
+    "workbench.colorTheme": "Omni",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "workbench.editor.tabSizing": "shrink",
+    "explorer.compactFolders": false,
+  
+    // formatter
+    "prettier.tabWidth": 2,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+    "prettier.arrowParens": "avoid",
+    "prettier.endOfLine": "auto",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "settingsSync.ignoredSettings": [
+      "-C_Cpp.clang_format_path",
+      "-C_Cpp.codeAnalysis.clangTidy.path",
+      "-C_Cpp.default.browse.path",
+      "-C_Cpp.default.compilerPath"
+    ],
+    "editor.accessibilitySupport": "off",
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay"
+  }

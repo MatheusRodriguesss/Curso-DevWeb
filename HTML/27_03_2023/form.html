@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/27_03_2023/form.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+        <!-- Titulo principal  -->
+        <h1>Exemplo de Formulário</h1>
+    </header>
+    <main>
+        <!-- Criar form -->
+        <form id="aluno" action="#">
+            <!-- tag para entrada do nome  -->
+            <label for="">Nome: </label>
+            <input type="text" required="required" name="" id=""> <br>
+            <!-- tag para idade -->
+            <label for="">Idade: </label>
+            <input type="number" required="required" name="" id=""> <br>
+            <!-- tag para nota -->
+            <label for="">Nota: </label>
+            <input type="number" required="required" name="" id=""> <br>
+
+            <!-- campo para aprovado, reprovado, recuperação -->
+            <label for=""> O aluno está: </label> <br>
+
+            <input type="radio" name="status" id="Aprov">
+            <label for="Aprov"> Aprovado </label> <br>
+
+            <input type="radio" name="status" id="Repr">
+            <label for="Repr"> Reprovado </label> <br>
+
+            <input type="radio" name="status" id="Rec">
+            <label for="Rec"> Recuperação </label> <br>
+
+            <!-- botao para enviar o formulario -->
+            <input type="submit" value="Enviar">
+        </form>
+
+        <!-- Formulário de entrega -->
+        <form id="entregaExercicio" action="+">
+            <label for=""> Exercicios concluídos: </label> <br>
+            <input type="checkbox">
+            <label for=""> Exercicio 1 </label> <br>
+            <input type="checkbox">
+            <label for=""> Exercicio 2 </label> <br>
+            <input type="checkbox">
+            <label for=""> Exercicio 3 </label> <br>
+            <input type="checkbox">
+            <label for=""> Exercicio 4 </label> <br>
+            <input type="checkbox">
+            <label for=""> Exercicio 5 </label> <br>
+        </form>
+
+        <form id="feedback" action="#">
+            <label for=""> Você gostou do curso? </label> <br>
+            <label for=""> Sim </label>
+            <input type="range">
+            <label for=""> Não </label> <br>
+
+            <label for=""> Lista de instituições: </label> <br>
+            <input type="text" list="instituicoes">
+            <datalist id="instituicoes">
+                <option value="Ada"></option>
+                <option value="Alura"></option>
+                <option value="DomBosco"></option>
+                <option value="Generation"></option>
+            </datalist>
+        </form>
+
+        <!-- Form para lista de comida -->
+        <form id="listaComida" action="#">
+            <label> Lista de comida: </label> <br>
+            <input type="text" list="comida">
+
+            <datalist id="comida">
+                <option value="Katsudon"></option>
+                <option value="Gyudon"></option>
+                <option value="Kara-Ague"></option>
+                <option value="Curry"></option>
+            </datalist>
+        </form>
+        <!-- Área daslamentações -->
+        <form id="lamentacao" action="">
+            <label for="">Área de lamentações: </label> <br>
+            <textarea col="30" rows="10" placeholder="Deixe aqui a sua lamentação">
+            </textarea>
+        </form>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

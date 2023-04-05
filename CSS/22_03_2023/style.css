@@ -1,0 +1,56 @@
+body {
+    margin: 0%;
+    background-color: bisque;
+}
+
+header {
+    background-color: rgb(2, 116, 247);
+    text-align: center;
+    border: 5px double black;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
+#campeonato, #lista, #media, #vendas {
+    border: 3px solid black;
+    text-align: center;
+}
+
+#campeonato caption {
+    border: 2px solid black;
+    font-size: 22px;
+    font-color: black;
+}
+
+#lista caption {
+    border: 2px solid black;
+    font-size: 22px;
+    font-color: black;
+}
+
+#media caption {
+    border: 2px solid black;
+    font-size: 22px;
+    font-color: black;
+}
+
+#vendas caption {
+    border: 2px solid black;
+    font-size: 22px;
+    font-color: black;
+}
+
+th, td {
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+footer {
+    background-color: aqua;
+}

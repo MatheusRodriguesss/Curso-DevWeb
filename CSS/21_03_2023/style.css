@@ -1,0 +1,30 @@
+body {
+    margin: 0%;
+    background-color: azure;
+}
+
+header {
+background-color: rgb(2, 116, 247);
+text-align: center;
+border: 5px double black;
+border-radius: 5px;
+}
+
+main {
+    padding: 5px;
+    background-color:blueviolet;
+    
+}
+p {
+    font-size: 18px;
+}
+h2 {
+    border: 3px dotted black;
+    text-align: center;
+}
+#luffy {
+    text-align: center;
+}
+footer {
+    background-color:aqua;
+}
