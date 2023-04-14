@@ -1,0 +1,57 @@
+@charset "utf-8";
+*{
+    background-image: url(../../Exercícios/11_04_2023/back-blue.jpg);
+    font-family: 'Cookie', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+
+header {
+    margin: 0.75%;
+    padding: .25rem;
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    border-bottom: dotted 3px black;
+}
+
+main {
+    margin: 5px;
+    text-align: center;
+}
+
+section {
+    padding: 0%;
+    margin: 0%;
+}
+
+article {
+    padding: 2.0em;
+    border: dotted 2px black;
+    border-radius: 1.5cm;
+    margin: 2mm;
+}
+
+.button {
+text-decoration: none;
+color: #926239;
+border: #926239 1px solid;
+margin: 5px 5px;
+padding: 10px 15px;
+border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+    border: 1px solid black;
+    border-radius: .50cm;
+}
+
+.ulist{
+    padding: 5px 6.75rem;
+    
+}
