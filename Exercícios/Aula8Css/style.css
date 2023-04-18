@@ -1,0 +1,59 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+	width: auto;
+	height: auto;
+}
+
+body {
+	width: 80%;
+	margin: auto;
+	padding: 30px;
+	font-size: 25px;
+	font-family: Arial, sans-serif;
+}
+#matui {
+border: 2px solid #000;
+height: 400px;
+}
+#matuifig {
+    border: 2px solid #000;
+    height: 400px;
+}
+
+#oda {
+    border: 2px solid #000;
+    height: 400px;
+}
+        
+#odafig {
+    border: 2px solid #000;
+    height: 400px;
+}
+
+#ryu {
+    border: 2px solid #000;
+    height: 400px;
+}
+#ryufig {
+    border: 2px solid #000;
+    height: 400px;
+}
+
+
+
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer p {
+	font-size: 14px;
+	color: #999;
+}
