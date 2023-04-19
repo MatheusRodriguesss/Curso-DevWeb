@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* Root */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* Inicio do esqueleto */
+body {
+	width: 80%;
+	margin: auto;
+	padding: 30px;
+	font-size: 25px;
+	font-family: Arial, sans-serif;
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+}
+footer p {
+	font-size: 14px;
+	color: #999;
+}
+
+/* Fim do esqueleto */
+
+/* Propriedades */
+img {
+    max-width: 200px;
+    max-height: 200px;
+	width: auto;
+	height: auto;
+}
+
+div {
+    margin-bottom: 2%;
+    
+}
+
+/* Inicio das DIVS */
+
+/* Inicio matui */
+#matui {
+border: 2px solid #000;
+height: 400px;
+margin-right: 2%;
+}
+#matuifig {
+    float: left;
+}
+#matuip {
+}
+
+/* Inicio oda */
+#oda {
+    border: 2px solid #000;
+    height: 400px;
+    margin-left: 2%;
+} 
+#odafig {
+	
+    float: right;
+}
+#odap {
+ 
+    }
+
+/* Inicio Ryu */
+#ryu {
+    border: 2px solid #000;
+    height: 400px;
+    margin-right: 2%;
+}
+#ryufig {
+    float: left;
+}
+#ryup {
+    
+}
+
