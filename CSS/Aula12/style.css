@@ -1,0 +1,81 @@
+@charset "utf-8";
+body {
+    margin: 0%;
+    padding: 0%;
+}
+/* Inicio header */
+header {
+    padding: 10%;
+    border: 1px solid #000;
+}
+
+/* Inicio main */
+main {
+    margin: 0% 1%;
+    padding: 5%;
+    border: 1px solid #000;
+}
+.container {
+display: grid;
+grid-template-columns: 100px 100px;
+grid-template-rows: 100px 100px;
+/*
+grid-template-areas: "filho1 . . filho2" "filho3 . . filho4" "filho5 . . filho6";
+column-gap: 10px;
+row-gap: 10px;
+*/
+grid-gap: 40px 15px; 
+
+}
+
+.item1 {
+    border: 1px solid #000;
+    background-color: #FF0;
+    grid-area: filho1;
+    width: 50px;
+    height: 50px;
+}
+
+.item2 {
+    border: 1px solid #000;
+    background-color: #F0F;
+    grid-area: filho2;
+    width: 50px;
+    height: 50px;
+}
+.item3 {
+    border: 1px solid #000;
+    background-color: #0FF;
+    grid-area: filho3;
+    width: 50px;
+    height: 50px;
+}
+
+.item4 {
+    border: 1px solid #000;
+    background-color: #00F;
+    grid-area: filho4;
+    width: 50px;
+    height: 50px;
+}
+.item5 {
+    border: 1px solid #000;
+    background-color: #0F0;
+    grid-area: filho5;
+    width: 50px;
+    height: 50px;
+}
+.item6 {
+    border: 1px solid #000;
+    background-color: #F00;
+    grid-area: filho6;
+    width: 50px;
+    height: 50px;
+}
+/* Inicio footer */
+
+footer {
+    margin: 0% 5%;
+    padding: 5%;
+    border: 1px solid #000;
+}
