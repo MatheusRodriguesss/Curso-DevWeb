@@ -1,0 +1,37 @@
+@charset "utf-8";
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: azure;
+}
+
+/* Início do header */
+header{
+    margin: 0% 10%;
+    padding: 2% 4%;
+    border: 1px solid black;
+}
+
+/* Início do main */
+main {
+    margin: 0% 10%;
+    padding: 2% 4%;
+    border: 1px solid black;
+}
+.container{
+
+}
+
+.card > img {
+    max-width: 400px;
+    min-width: 400px;
+    width: auto;
+    height: auto;
+}
+
+/* Início do footer */
+footer {
+margin: 0% 10%;
+padding: 2% 4%;
+border: 1px solid black;
+}
