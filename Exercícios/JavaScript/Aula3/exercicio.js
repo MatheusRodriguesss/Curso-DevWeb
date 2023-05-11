@@ -48,3 +48,7 @@ ${fruta2}: comprimento = ${tamanho2}, 3 primeiros caracteres = ${sub2}
 ${fruta3}: comprimento = ${tamanho3}, 3 primeiros caracteres = ${sub3}
 ${fruta4}: comprimento = ${tamanho4}, 3 primeiros caracteres = ${sub4}
 ${fruta5}: comprimento = ${tamanho5}, 3 primeiros caracteres = ${sub5}`);
+o que a empresa faz
+onde reside 
+historia 
+enredo
