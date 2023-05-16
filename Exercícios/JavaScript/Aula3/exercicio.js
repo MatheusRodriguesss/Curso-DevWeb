@@ -1,5 +1,5 @@
 // Nome das frutas
-let fruta1 = "kiwi";
+let fruta1 = " kiwi";
 let fruta2 = "Banana";
 let fruta3 = "Laranja";
 let fruta4 = "Tangerina";
